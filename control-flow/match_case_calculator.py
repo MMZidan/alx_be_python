@@ -11,8 +11,7 @@ elif operator=="*":
     result= num1*num2
     print(f"The result is {result}")
 elif operator=="/":
-    if num2==0:
-        print("Cannot divide by zero.")
-    else:
-        result= num1/num2
-        print(f"The result is {result}")
+    match num2:
+        case 0: print("Cannot divide by zero.")
+        case _: print(f"The result is {num1/num2}")
+    
