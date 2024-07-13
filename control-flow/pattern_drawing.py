@@ -6,4 +6,3 @@ while pattern > itr :
     itr = itr+1
     print("\n")
     
-        
