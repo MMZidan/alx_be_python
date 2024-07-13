@@ -9,7 +9,7 @@ def reminder(priority):
         case "low":  print (f"Reminder: '{task}' is a {priority} priority task that requires immediate attention today!")
         case _: print("Please enter a valid value for your task priority (high/medium/low)") 
 print(time)
-if time == "yes" :
+if time=="yes":
     reminder(priority)
 else :
         print(f"Note: '{task}' is a {priority} priority task. Consider completing it when you have free time.")
