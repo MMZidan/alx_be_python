@@ -10,3 +10,7 @@ while outer_count > 0:
   print()  # Move to a new line after each outer loop iteration
   outer_count -= 1
   print(f'outer_count{outer_count}')
+
+  books = {}
+  books[ "Brave New World"]= "Aldous Huxley"
+  print(books)
