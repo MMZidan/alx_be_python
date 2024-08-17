@@ -26,7 +26,7 @@ class Book:
 
     def __str__(self):
         """Return a string representation of the book."""
-        return f'{self.title} by {self.author} status:{self._is_checked_out}'
+        return f'{self.title} by {self.author}'
 
 
 class Library:
