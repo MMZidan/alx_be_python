@@ -27,9 +27,9 @@ def divide_numbers():
             # Perform the division
     try:
             result = num1 / num2
-    except ZeroDivisionError as z:
-            # print("Cannot divide by Zero")    
-            print(z)
+    except ZeroDivisionError:
+            print("Cannot divide by Zero")    
+            # raise ZeroDivisionError
             # Display the result
     else:
             print(f"{num1} divided by {num2} is: {result:.2f}")
@@ -40,6 +40,7 @@ def open_file():
     except FileNotFoundError as e:
         #  print("file not found")
         print(e)
+
 
 def custom_exception():
     num = float(input("Enter the number : "))
